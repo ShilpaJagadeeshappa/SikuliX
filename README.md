@@ -76,12 +76,12 @@ SikuliX belongs to the 3rd category and currently does not have a recorder featu
 SikuliX uses the OpenCV package for finding an image on the screen.
 A basic feature in Sikulix is to wait for an image to appear in a given region:
 
-# some top left part of the screen
+### some top left part of the screen
 aRegion = Region(0, 0, 500, 500)
-# a png image file on the file system
-# this is the image we want to look for in the given Region
+### A png image file on the file system
+### this is the image we want to look for in the given Region
 aImage = “someImage.png”
-# search and get the result
+### search and get the result
 aMatch = aRegion.find(aImage)
 
 To not make it too complicated here, I do not talk about how you create the aImage - we just assume it is there and accessible.
