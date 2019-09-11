@@ -63,6 +63,8 @@ Syntax: Pattern p1 = p.similar(0.7f);
 Description: This method returns a new pattern object with similarity set to 1. It looks only for an exact match of the specified element.
 Syntax: Pattern p1 = p.exact();
 
+![](s1.png)
+
 There are basically 3 categories of tools:
 
 - Recorder while you manually work along your workflow, a recorder tracks your mouse and keyboard actions. After stopping the recording, you might playback (autorun your worflow). The recordings can usually be edited and augmented with additional features.
@@ -83,6 +85,10 @@ aRegion = Region(0, 0, 500, 500)
 aImage = “someImage.png”
 ### search and get the result
 aMatch = aRegion.find(aImage)
+
+
+![](s2.png)
+
 
 To not make it too complicated here, I do not talk about how you create the aImage - we just assume it is there and accessible.
 The matchTemplate() expects an even sized or larger image (base), where the given image (target) should be searched. To prepare that, we internally make a screenshot (using Java Robot class) of the screen area defined by the given aRegion. This now is the base image and held in memory. The target image is also created as in memory image read form the image file. Both images then are converted to the needed OpenCV objects (CVMat).
@@ -196,6 +202,50 @@ At least on newer Ubuntu versions ldd -r reports unresolved symbols pthread… I
 
 
 # Tool
+
+The below image describes the tool view-
+
+![](s3.png)
+
+The tool has the below functionalities-
+
+- "Take screenshot" : Takes the screenshot of the object that we want to search/count/detect in an image/video.
+we can score every object using matching preview statistics and setting the match parameter manually to search and locate the object in image/video.
+
+- "Insert image" : Local system files to insert the screenshot onto the tool in code is provisioned.
+
+- "Region" : We can take screenshot of a region in an image to detect it on a fresh image.
+
+- "Location" : We can take Xmax,Ymax,Xmin,Ymin the coordinates of objects/patterns.
+
+- "Show in" : We can zoom the input image to the tool or code.
+
+- "Show out" : We can Zoom out of input image to tool or code.
+
+- "Message" : Console to showcase the outputs or track the objects.
+
+- Functions are listed on left side bar of the tool such as hover(),click(),dragDrop()...etc
+
+### Sikulix Working
+
+![](s5.png)
+
+
+![](s6.png)
+
+### MatchingPreview/Setting Score parameter
+
+![](s7.png)
+
+![](s8.jpg)
+
+
+We can scroll the cursor over the scale to set the matching/scoring parameter and then see the background image to see the simulation of objects Bounded areas/regions.
+
+
+
+
+
 
 
 
