@@ -243,6 +243,70 @@ we can score every object using matching preview statistics and setting the matc
 We can scroll the cursor over the scale to set the matching/scoring parameter and then see the background image to see the simulation of objects Bounded areas/regions.
 
 
+## Documentations referred
+
+-Follow link for Sikulix scripting: https://sikulix-2014.readthedocs.io/en/latest/
+-Link to follow up :http://sikulix.com/
+-Link to future of AI: https://blogs.microsoft.com/blog/2018/01/17/future-computed-artificial-intelligence-role-society/
+
+## Projects Built on Sikulix
+
+-As a demonstration of what you can do with Sikulix, Raiman's team have built a simple machine learning tool for Windows/Mac/Linux called sikulix , using Sikulix. Follow this Sikulix to download page of the application and its source code.
+-We also welcome submissions of applications and systems built by you and powered by Sikukix for listings here. Should you want your Sikulix powered developments listed here, you can reach to us via our Contacts below.
+
+## Contact Developer
+  -Shilpa Jagadeeshappa
+    - Email:shilpatc25@gmail.com
+    - Github:https://github.com/ShilpaJagadeeshappa
+    - Facebook: https://www.facebook.com/shilpasj.25
+    - LinkedIn: https://www.linkedin.com/feed/?trk=hb_signin
+## Contributors
+
+We are inviting anyone who wishes to contribute to the Sikulix project to reach to us.We give special thanks to Raimond Hook and Wilson Mar for his incredible and excellent work in Sikulix and its documantations. Find below the contact details of those who have contributed immensely to the Sikulix project.
+  - Youtube: https://www.youtube.com/user/wilsonmar
+  - LinkedIn: https://www.linkedin.com/in/wilsonmar?src=aff-ref&veh=jobs_aff_ir_pid_27795_plc_Viglink%20Primary_adid_637360&trk=jobs_aff_ir_pid_27795_plc_Viglink%20Primary_adid_637360&clickid=RDOUf-0zLxyOURc0Rw0UrUzuUknwtpUXfwuMUU0&irgwc=1
+  - Github: https://github.com/wilsonmar
+  - Github: https://wilsonmar.github.io/opencv-sikulix-robot/
+ 
+ ## References
+ 
+  1. [Online] Available: scholar.google.fr/scholar?hl =
+fr&q = Object + detection + using + Haar − cascade +
+Classif ier&btnG = &lr =
+  2.  [Online] Available: lab.cntl.kyutech.ac.jp/ ∼ kobalab/
+nishida/opencv/OpenCV ObjectDetection HowT o.pdf
+  3.  [Online] Available: cs.colby.edu/maxwell/courses/cs397
+− vision/F07/papers/viola − F aces − cvpr01.pdf
+  4.  [Online] Available: cbcl.mit.edu/publications/ps/heisele
+− x3hei.lo.pdf
+  5. [Online] Available: arxiv.org/pdf/1502.05461v1.pdf
+  6. [Online] Available: www.svcl.ucsd.edu/projects/traff ic/
+  7. S.Z. Li, L. Zhu, Z. Zhang, A. Blake, H. Zhang, H. Shum,
+Statistical learning of multiview face detection, in: ECCV ’02:
+Proceedings of the European Conference on Computer Vision,
+Lecture Notes in Computer Sciences, vol. 2353, London, UK,
+2002, pp. 67-81
+  8. R. Lienhart, J. Maydt, An extended set of Haar-like features
+for rapid object detection, in: ICIP ’02: Proceedings of the
+International Conference on Image Processing, 2002, pp. 900-
+903
+  9. P. Viola, M.J. Jones, Rapid object detection using a boosted
+cascade of simple features, in: CVPR ’01: Proceedings of the
+Conference on Computer Vision and Pattern Recognition, Los
+Alamitos, CA, USA, 2001, pp. 511-518.
+  10.  M. Jones, P. Viola, Fast multi-view face detection, Technical
+Report MERLTR2003-96, Mitsubishi Electric Research Laboratories, July 2003.
+  11. Viola, P.; Jones, M., ”Rapid object detection using a boosted
+cascade of simple features,” Computer Vision and Pattern Recognition (CVPR), 2001 IEEE Conference on, June 2001.
+  12. [Online] Available: ir.library.louisville.edu/cgi/
+viewcontent.cgi?article = 2731&context = etd
+  13. C.P. Papageorgiou, M. Oren, T. Poggio, A general framework
+for object detection, in: ICCV ’98: Proceedings of the International Conference on Computer Vision, Washington, DC, USA,
+1998, pp. 555-562.
+  14. [Online]Link: https://www.researchgate.net/post/Can_you_name_some_object_detection_methods
+  15. [Online]Link: https://www.mathworks.com/discovery/object-detection.html
+  16. [Online]Link: http://ijarcet.org/wp-content/uploads/IJARCET-VOL-2-ISSUE-4-1383-1388.pdf
+  
 
 
 
