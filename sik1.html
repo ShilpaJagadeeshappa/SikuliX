@@ -1,0 +1,118 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>sik1.sikuli</h2> <a href="sik1.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">from</span> guide <span class="kw">import</span>*
+
+m = <span class="skw">find</span>(Pattern(<img src="1530891923892.png" />).similar(<span class="dig">0.49</span>))
+
+<span class="cmt"># the red frame will blink for about 7 - 8 seconds</span>
+<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">2</span>):
+        m.highlight(<span class="dig">1</span>)
+        <span class="skw">wait</span>(<span class="dig">0.050</span>)
+
+n = <span class="skw">find</span>(Pattern(<span class="str">"P3.PNG"</span>).similar(<span class="dig">0.55</span>) )
+<span class="cmt"># the red frame will blink for about 7 - 8 seconds</span>
+<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">2</span>):
+        n.highlight(<span class="dig">1</span>)
+        <span class="skw">wait</span>(<span class="dig">0.050</span>)
+o = <span class="skw">find</span>(Pattern(<img src="1530883620577.png" />).similar(<span class="dig">0.17</span>))
+<span class="cmt"># the red frame will blink for about 7 - 8 seconds</span>
+<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">2</span>):
+        o.highlight(<span class="dig">1</span>)
+        <span class="skw">wait</span>(<span class="dig">0.050</span>)
+o = <span class="skw">find</span>(<img src="1530885319211.png" />)
+<span class="cmt"># the red frame will blink for about 7 - 8 seconds</span>
+<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">2</span>):
+        o.highlight(<span class="dig">1</span>)
+        <span class="skw">wait</span>(<span class="dig">0.050</span>)
+
+
+
+s = <span class="skw">find</span>(Pattern(<span class="str">"P6.PNG"</span>).similar(<span class="dig">0.30</span>) )
+<span class="cmt"># the red frame will blink for about 7 - 8 seconds</span>
+<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">2</span>):
+        s.highlight(<span class="dig">1</span>)
+        <span class="skw">wait</span>(<span class="dig">0.050</span>)
+
+
+
+
+text( Pattern(<span class="str">"P2-1.PNG"</span>).similar(<span class="dig">0.54</span>),<span class="str">"Press Table"</span>)
+text( Pattern(<span class="str">"P3-1.PNG"</span>).similar(<span class="dig">0.14</span>),<span class="str">"Floor Court Side"</span>)
+text( Pattern(<span class="str">"P4-1.PNG"</span>).similar(<span class="dig">0.24</span>).targetOffset(-<span class="dig">110</span>,-<span class="dig">9</span>),<span class="str">"Floor Court Logo"</span>)
+text( <img src="1530885319211.png" />,<span class="str">"Floor Court Logo"</span>)
+
+text( Pattern(<span class="str">"P6-1.PNG"</span>).similar(<span class="dig">0.13</span>),<span class="str">"Chair Covers"</span>)
+show(<span class="dig">5</span>)
+</pre>
+</body>
+</html>
