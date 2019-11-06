@@ -1,0 +1,23 @@
+a = find("1531929236671.png")
+a.highlight()
+click("1531926298873.png")
+type(Key.F2)
+type("Budlight"+Key.ENTER)
+hover("1531929546844.png")
+click("1531929546844.png")
+exiut(1)
+
+b = find("1531929356275.png")
+        b.highlight()
+        click("1531926298873.png")
+        type("Gatorade"+Key.ENTER)
+        hover("1531929546844.png")
+click("1531929546844.png")
+c = find("1531929443047.png")
+        c.highlight()
+        click("1531926298873.png")
+               type("Smoothie King"+Key.ENTER)
+        hover("1531929546844.png")
+click("1531929546844.png")
+        
+
