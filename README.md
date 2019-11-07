@@ -63,7 +63,7 @@ Syntax: Pattern p1 = p.similar(0.7f);
 Description: This method returns a new pattern object with similarity set to 1. It looks only for an exact match of the specified element.
 Syntax: Pattern p1 = p.exact();
 
-![](s1.png)
+![](screen_class.jpg)
 
 There are basically 3 categories of tools:
 
@@ -87,7 +87,7 @@ aImage = “someImage.png”
 aMatch = aRegion.find(aImage)
 
 
-![](s2.png)
+![](pattern_class.jpg)
 
 
 To not make it too complicated here, I do not talk about how you create the aImage - we just assume it is there and accessible.
@@ -205,7 +205,7 @@ At least on newer Ubuntu versions ldd -r reports unresolved symbols pthread… I
 
 The below image describes the tool view-
 
-![](s3.png)
+![](tool_view.png)
 
 The tool has the below functionalities-
 
