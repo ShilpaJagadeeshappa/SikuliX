@@ -1,12 +1,12 @@
 # Sikulix
 
-Sikulix for our requirements is used in detecting logos/objects in arenas/stadiums in images/videos.This application can be extended to any sort of requirements depending on the suitability
+Sikulix for our requirements is used in detecting logos/objects in arenas/stadiums in images/videos.This application can be extended to any sort of requirements depending on the suitability.
 Sikuli is known as God's Eye which is used to automate the desktop as well as web applications with/without API's.SikuliX automates anything you see on the screen of your desktop computer running Windows, Mac or some Linux/Unix. It uses image recognition powered by OpenCV to identify and control GUI components. This is handy in cases when there is no easy access to a GUI's internals or the source code of the application or web page you want to act on.
 
 SikuliX supports as scripting languages
 
 1. Python language level 2.7 (supported by Jython)
-2. running RobotFramework text-scripts is supported (see docs)
+2. Running RobotFramework text-scripts is supported (see docs)
 3. Ruby language level 1.9 and 2.0 (supported by JRuby)
 4. JavaScript (supported by the Java Scripting Engine)
 
@@ -14,20 +14,20 @@ Though SikuliX is currently not available on any mobile device, it can be used w
 Besides locating images on a screen SikuliX can run the mouse and the keyboard to interact with the identified GUI elements. This is available for multi monitor environments and even for remote systems with some restrictions.
 SikuliX comes with text recognition (OCR) and can be used to search for text. This feature is powered by Tess4J / Tesseract.
 
-# When is SikuliX useful? 
+## When is SikuliX useful? 
 
 We want to automate some repetitive tasks in
-- daily usage of applications or web pages
-- playing games
-- administration of IT systems and networks
+- Daily usage of applications or web pages
+- Playing games
+- Administration of IT systems and networks
 
-# How can I get SikuliX? 
+## How can I get SikuliX? 
 
 SikuliX can be downloaded from SikuliX's Launchpad page. What you download from there is sikulisetup-X.Y.Z.jar (where X.Y.Z is the version number).
 Qickstart - http://sikulix.com/quickstart/
 You should put it in a separate folder in a prominent place, since it is intended to stay there for ever ;-) together with other SikuliX artefacts you will get later on, either by will or because SikuliX creates them on the fly. It is not recommended to put any scripts, images or other user stuff into that folder.
 
-# How do I use SikuliX? 
+## How do I use SikuliX? 
 
 One sets up and runs more or less complex SikuliX workflows based on searching images and acting on GUI elements with mouse and keyboard. For this one uses the so called SikuliX IDE, that brings some basic support for editing and running scripts.
 In the Scripting usage scenario, you handle SikuliX scripts named you-name-it.sikuli, which are folders containing the script file and the images you need for the workflow. You either run the scripts from within the SikuliX IDE or from the command line.
@@ -73,7 +73,7 @@ There are basically 3 categories of tools:
 
 SikuliX belongs to the 3rd category and currently does not have a recorder feature. While you work through your workflow you capture some images, that you want to act on or that you expect to appear after an action. These images are used by click and type actions or are used to wait for the screen to be ready for the next action.
 
-# SikuliX - how does it find images on the screen?
+## SikuliX - How does it find images on the screen?
 
 SikuliX uses the OpenCV package for finding an image on the screen.
 A basic feature in Sikulix is to wait for an image to appear in a given region:
@@ -113,7 +113,7 @@ If you want to find a specific item of these multiple occurrences, you have to r
 
 For cases where this is not suitable or if you want to cycle through all appearances, we have the findAll() method, that returns a list of matches in decreasing result score order. You might work through this list according to their position on the screen by using their (x,y) top left corner coordinates. findAll internally evaluates the search result matrix, by repetitively looking for the next max value after having “switched off” some area around the last max.
 
-# SikuliX - handling of images
+## SikuliX - Handling of images
 
 To use images with the features of SikuliX like click(someImage), you need to store these images as image files preferably in the PNG format (someImage.png) somewhere on the file system or somewhere in the internet.
 
@@ -133,7 +133,7 @@ It is planned to have a capturing tool as a standalone app, that supports the ba
 - organize different states of an image (e.g. selected/not selected)
 - optimize screenshots to get the highest possible scores at find
 
-# SikuliX - system specifics
+## SikuliX - System Specifics
 
 Some general aspects
 his is valid for version 1.1.4+ (prior versions are no longer supprted)
@@ -164,7 +164,7 @@ The current layout of this space is as follows (we call it SikulixAppData):
 
 SikuliX in the standard does not need any environment settings anymore. It is a good idea, to remove anything from your environment, that points to stuff from prior versions.
 
-# SikuliX on Windows
+## SikuliX on Windows
 
 The IDE is only available as jar-file, that can be double-clicked to start it.
 
@@ -174,7 +174,7 @@ The SikulixAppData is stored in the folder Sikulix inside the folder the environ
 
 Besides Java there are no prerequisites. All native libraries are bundled in the jar-files and exported at runtime as needed.
 
-# SikuliX on Mac
+## SikuliX on Mac
 
 The IDE is only available as jar-file, that can be double-clicked to start it.
 
@@ -184,7 +184,7 @@ The SikulixAppData folder is here ~/Library/Application Support/Sikulix
 
 Besides Java there are no prerequisites. All native libraries are bundled in the jar-files and exported at runtime as needed.
 
-# SikuliX on Linux
+## SikuliX on Linux
 
 As Java you should use the OpenJDK versions (or the Oracle versions where appropriate).
 
@@ -201,7 +201,7 @@ Special information on the bundled libJXGrabKey.so
 At least on newer Ubuntu versions ldd -r reports unresolved symbols pthread… It seems, that this can be ignored, since JXGrabKey works. If you get problems, that are related to JXGrabKey, you might have to build from the sources and provide the ready built library in the ~/.Sikulix/SikulixLibs folder.
 
 
-# Tool
+## Tool
 
 The below image describes the tool view-
 
