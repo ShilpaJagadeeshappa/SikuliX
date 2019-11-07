@@ -246,12 +246,15 @@ We can scroll the cursor over the scale to set the matching/scoring parameter an
 ## Documentations referred
 
 -Follow link for Sikulix scripting: https://sikulix-2014.readthedocs.io/en/latest/
+
 -Link to follow up :http://sikulix.com/
+
 -Link to future of AI: https://blogs.microsoft.com/blog/2018/01/17/future-computed-artificial-intelligence-role-society/
 
 ## Projects Built on Sikulix
 
 -As a demonstration of what you can do with Sikulix, Raiman's team have built a simple machine learning tool for Windows/Mac/Linux called sikulix , using Sikulix. Follow this Sikulix to download page of the application and its source code.
+
 -We also welcome submissions of applications and systems built by you and powered by Sikukix for listings here. Should you want your Sikulix powered developments listed here, you can reach to us via our Contacts below.
 
 ## Contact Developer
