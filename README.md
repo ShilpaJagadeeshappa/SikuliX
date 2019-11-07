@@ -259,6 +259,7 @@ We can scroll the cursor over the scale to set the matching/scoring parameter an
 
 ## Contact Developer
   -Shilpa Jagadeeshappa
+    
     - Email: shilpatc25@gmail.com
     
     - Github:https://github.com/ShilpaJagadeeshappa
