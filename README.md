@@ -63,7 +63,7 @@ Syntax: Pattern p1 = p.similar(0.7f);
 Description: This method returns a new pattern object with similarity set to 1. It looks only for an exact match of the specified element.
 Syntax: Pattern p1 = p.exact();
 
-![](screen_class.jpg)
+![](screen_class.JPG)
 
 There are basically 3 categories of tools:
 
@@ -87,7 +87,7 @@ aImage = “someImage.png”
 aMatch = aRegion.find(aImage)
 
 
-![](pattern_class.jpg)
+![](pattern_class.JPG)
 
 
 To not make it too complicated here, I do not talk about how you create the aImage - we just assume it is there and accessible.
