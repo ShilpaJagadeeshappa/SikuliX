@@ -268,7 +268,7 @@ We can scroll the cursor over the scale to set the matching/scoring parameter an
     
     - Facebook: https://www.facebook.com/shilpasj.25
     
-    - LinkedIn: https://www.linkedin.com/feed/?trk=hb_signin
+    - LinkedIn: https://www.linkedin.com/in/shilpa-s-j-5b0792130/
 ## Contributors
 
 We are inviting anyone who wishes to contribute to the Sikulix project to reach to us.We give special thanks to Raimond Hook and Wilson Mar for his incredible and excellent work in Sikulix and its documantations. Find below the contact details of those who have contributed immensely to the Sikulix project.
