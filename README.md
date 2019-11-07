@@ -257,6 +257,8 @@ We can scroll the cursor over the scale to set the matching/scoring parameter an
 
 -We also welcome submissions of applications and systems built by you and powered by Sikukix for listings here. Should you want your Sikulix powered developments listed here, you can reach to us via our Contacts below.
 
+-Used for objects tracking in Stadiums or Arenas,Traffics,Networks,Banking sectors and Health care Hospitals.
+
 ## Contact Developer
   -Shilpa Jagadeeshappa
     
